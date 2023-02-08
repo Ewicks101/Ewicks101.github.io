@@ -1,7 +1,85 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Website</title>
+  <style>
+    /* Add some styling to make the website look nice and professional */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: lightgray;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 50px;
+      padding: 10px;
+    }
+
+    .header a {
+      text-decoration: none;
+      color: black;
+      margin-right: 10px;
+    }
+
+    .header a:hover {
+      color: gray;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .title {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .photo {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="header">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+  </div>
+  <div class="container">
+    <div class="title">My Portfolio</div>
+    <div class="photos">
+      <!-- Add spaces for photos to be added -->
+      <div class="photo"></div>
+      <div class="photo"></div>
+      <div class="photo"></div>
+    </div>
+  </div>
 </body>
+
 </html>
