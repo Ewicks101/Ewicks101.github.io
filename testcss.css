@@ -1,0 +1,83 @@
+/* Custom styles for this template */
+
+/* Set a background color */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Style for the off-canvas menu */
+  .offcanvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1031;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 25%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    visibility: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  /* Style for the toggler button */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  
+  /* Style for the menu items */
+  .nav-pills .nav-link {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Style for the active menu item */
+  .nav-pills .nav-link.active {
+    color: #007bff;
+    background-color: #fff;
+  }
+  
+  /* Style for the submenu items */
+  .dropdown-menu .dropdown-item {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /* Style for the dropdown divider */
+  .dropdown-divider {
+    border-color: #e9ecef;
+  }
+  
+  /* Style for the sample content */
+  .container-fluid {
+    margin-top: 50px;
+  }
+  
+  .col {
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
